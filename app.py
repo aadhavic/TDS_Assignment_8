@@ -2,7 +2,7 @@ import streamlit as st
 def calculate(a,b):
   try:
     ans=a/b
-    st.write("""Ans is """+ ans)
+    st.write("""Ans is """+ str(ans))
   except:
     st.write("Denomitor can't be 0")
 st.write("""
